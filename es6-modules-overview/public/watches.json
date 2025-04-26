@@ -1,0 +1,27 @@
+[
+      {
+        "id": 1,
+        "name": "Casio G-Shock GA-100",
+        "price": 120
+      },
+      {
+        "id": 2,
+        "name": "Fossil Grant Chronograph",
+        "price": 150
+      },
+      {
+        "id": 3,
+        "name": "Seiko 5 Automatic",
+        "price": 130
+      },
+      {
+        "id": 4,
+        "name": "Timex Weekender",
+        "price": 65
+      },
+      {
+        "id": 5,
+        "name": "Rolex Submariner",
+        "price": 8500
+      }
+    ]

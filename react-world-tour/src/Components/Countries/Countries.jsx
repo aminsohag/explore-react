@@ -35,8 +35,8 @@ export default function Countries() {
     <div>
       <h3>Countries : {countries.length}</h3>
       <div>
-        <h4>Visited Countries : {visitedCountries.length}</h4>
-        <ul>
+        <h4>Visited Countries!! : {visitedCountries.length}</h4>
+        <ul className='coun-css'>
           {
             visitedCountries.map(country => <li key={country.cca3}>{country.name.common}</li>)
           }
