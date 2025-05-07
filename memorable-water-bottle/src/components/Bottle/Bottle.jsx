@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 import './Bottle.css'
 
 export default function Bottle({bottle, handlePur}) {
@@ -12,4 +12,9 @@ export default function Bottle({bottle, handlePur}) {
       <button onClick={() => handlePur(bottle)}>Purchase</button>
     </div>
   )
+}
+
+Bottle.propTypes = {
+  bottle: PropTypes.object.isRequired
+  handlePur: PropTypes.func.isRequired
 }
